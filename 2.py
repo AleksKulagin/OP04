@@ -6,3 +6,7 @@ def square(arg):
   area = arg **2
   diagonal = arg * 2 ** 0.5
   return perimeter, area, diagonal
+
+z=float(input('Сторона квадрата - '))
+a,b,c= square(z)
+print(f"Периметр - {a}, Площадь - {b}, Диагональ - {c}")
